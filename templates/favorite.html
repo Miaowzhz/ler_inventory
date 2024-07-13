@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>收藏列表</title>
+    <script src="/static/js/favorites.js"></script>
+    <link href=/static/css/index.css  rel="stylesheet">
+    <link href="/static/css/favorite.css" rel="stylesheet">
+</head>
+<body>
+<!--孙文乐：收藏页面-->
+<!--导航栏-->
+<nav>
+    <div class="nav-container">
+        <div class="nav-item about">
+            <a href="/about">关于</a>
+        </div>
+        <div class="nav-item index">
+            <a href="/">首页</a>
+        </div>
+        <div class="nav-item profile">
+            <a href="/my">我的</a>
+        </div>
+        <div class="nav-item favorites">
+            <a href="/favorites">收藏</a>
+        </div>
+    </div>
+</nav>
+
+<div class="header">
+    <h1>收藏列表</h1>
+</div>
+<div class="container">
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>待办事项</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody id="favorites-table-body">
+        <!-- 数据将插入到这里 -->
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

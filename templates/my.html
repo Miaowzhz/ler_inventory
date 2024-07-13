@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息</title>
+    <link rel="stylesheet" href="/static/css/my.css">
+    <link href=/static/css/index.css  rel=stylesheet>
+</head>
+<!--导航栏-->
+<nav>
+    <div class="nav-container">
+        <div class="nav-item about">
+            <a href="/about">关于</a>
+        </div>
+        <div class="nav-item index">
+            <a href="/">首页</a>
+        </div>
+        <div class="nav-item profile">
+            <a href="/my">我的</a>
+        </div>
+        <div class="nav-item favorites">
+            <a href="/favorites">收藏</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+<div class="header">
+    <h1>个人信息</h1>
+</div>
+<div class="container">
+    <div class="descriptions">
+        <div class="descriptions-item">
+            <div class="label">用户名</div>
+            <div class="content" id="username"></div>
+        </div>
+        <div class="descriptions-item">
+            <div class="label">性别</div>
+            <div class="content" id="sex"></div>
+        </div>
+        <div class="descriptions-item">
+            <div class="label">邮箱</div>
+            <div class="content" id="email"></div>
+        </div>
+        <div class="descriptions-item">
+            <div class="label">电话</div>
+            <div class="content" id="phone"></div>
+        </div>
+    </div>
+    <button class="edit-button" onclick="showEditForm()">修改</button>
+    <div id="edit-form">
+        <div class="descriptions-item">
+            <div class="label">用户名</div>
+            <input type="text" id="edit-username">
+        </div>
+        <div class="descriptions-item">
+            <div class="label">性别</div>
+            <select id="edit-sex">
+                <option value="男">男</option>
+                <option value="女">女</option>
+                <option value="不愿透露">不愿透露</option>
+            </select>
+        </div>
+        <div class="descriptions-item">
+            <div class="label">邮箱</div>
+            <input type="email" id="edit-email">
+        </div>
+        <div class="descriptions-item">
+            <div class="label">电话</div>
+            <input type="text" id="edit-phone">
+        </div>
+        <button onclick="submitEditForm()">提交</button>
+    </div>
+</div>
+<script src="/static/js/my.js"></script>
+</body>
+</html>

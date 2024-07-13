@@ -1,0 +1,30 @@
+nav {
+    background-color: #28d4d4; /* 青蓝色 */
+    padding: 10px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* 分成两个部分并居中显示 */
+    width: 20%; /* 限制导航栏宽度 */
+    margin: 0 auto; /* 居中显示 */
+}
+
+.nav-item {
+    width: 45%; /* 每个部分占据的宽度 */
+    text-align: center;
+    border-radius: 5px; /* 圆角 */
+    background-color: #8ceabb; /* 浅蓝色 */
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,60 @@
+nav {
+    background-color: #28d4d4;
+    padding: 10px 0;
+    position: fixed; /* 固定在页面顶部 */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+body,html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* 重置内外边距 */
+    background-color: #f0f4f8;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80px; /* 添加上边距，避免被导航栏遮挡 */
+}
+.header h1 {
+    color: #32d6f3;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #32d6f3;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+button {
+    background-color: #32d6f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #29b6f2;
+}
